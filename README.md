@@ -8,7 +8,9 @@ I chose the wine and liqour industry as an example of the type of data that can 
 
 2. Website Analysis 
 
-Before I could start collecting information about wine and liqour products I had to analyze the website to see how the responses are built that are sent back when a user makes a request to see some specific product that can be displayed on the website. For this step I used tools called Burp and Postman to analyze requests and responses responsible for getting information about the products sold on the website. 
+Before I could start collecting information about wine and liqour products I had to analyze the website to see how the responses are built that are sent back when a user makes a request to see some specific product that can be displayed on the website. For this step I used tools called Burp and Postman to analyze requests and responses responsible for getting information about the products sold on the website.
+
+Burp allowed me to see how a request is constructed for a particular resource. After that I could use Postman to confirm that the specific request returns the required resource, in this case information about a specific product. Additionally thanks to Chrome developer tools I was able to learn that the data is past to the client in a JSON format.   
 
 
 
