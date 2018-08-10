@@ -17,9 +17,19 @@ Burp allowed me to see how a request is constructed for a particular resource. A
 Once I knew enough about the structure of the website and how the requests and responses were built I was able to start working 
 on a page scraper that allowed me to automate the process of collecting product information from the website. For this I created a program in Java with the use of jsoup and JSON.simple libraries. 
 
-The final product is a page scaper that let's me collect item information displayed on the website like name, price and volume. The requests can be so modified that they target a specific area in which the liqours and wines are sold. The same can also be done with the type of beverage. 
+The final product is a page scaper that let's me collect item information displayed on the website like name, price, volume and store names that carry such item. The requests can be so modified that they target a specific area in which the liqours and wines are sold. The same can also be done with the type of beverage. 
+
+Below you can see the video of the program running and generating files that contains the data about liquor and wine products. 
 
 4. Data Storage and Analysis
+
+Once I run the page scraper the program generates 2 JSON files, one for wine products and one for liquor products. From those two files 2 text files are created that are lated combined into one text file that contains product information about both wine and liquor products. 
+
+Once the product list is generated you can analyze the data in several ways. You can create a archive database where you store a list of product information from each consecutive day and later analyze for instance changes in price. You can also create reports in which you compare prices of products from different stores and see who has the highest and lowest price for a specific product.
+
+
+
+
 
 
 
